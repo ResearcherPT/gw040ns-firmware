@@ -1,5 +1,5 @@
 # gw040ns-firnware
-### bạn sẽ được học cách mod firmware ,một cách miễn phí
+### bạn sẽ được học cách mod firmware, một cách miễn phí
 
 > [!CAUTION]
 > **⚠️ Miễn trừ trách nhiệm ⚠️**<br>
