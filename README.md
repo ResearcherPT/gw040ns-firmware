@@ -103,5 +103,8 @@ python3 g040ns_unified_tool.py flash \
 ```
 thì bước này nếu bạn có xài [myshell](https://github.com/ResearcherPT/vnptmodemresearch/tree/master/Integrations/myshell) thì hãy restart dropbear để bắt đầu
 và việc của bạn là chờ và chờ
+
+#TODO: release thêm tool để mod firmware
+
 # Cảm ơn bạn đã đọc 💓
 ### AppleSang 🍎
