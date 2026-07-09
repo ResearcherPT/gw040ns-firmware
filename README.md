@@ -6,7 +6,7 @@
 > Tất cả nội dung chỉ nhằm mục đích nghiên cứu, học tập.<br>
 > Không khuyến khích sử dụng vào các hoạt động vi phạm pháp luật hay xâm phạm hệ thống mạng.<br>
 > Người sử dụng hoàn toàn tự chịu trách nhiệm.<br>
-> Việc thực hiện theo các hành động đề cập trong này (kể cả cài ứng dụng) có thể khiến bạn mất internet hoặc hư hỏng router.
+> Việc thực hiện theo các hành động đề cập trong này có thể khiến bạn mất internet hoặc hư hỏng router.
 
 # #1: dump firmware
 ```bash
