@@ -40,6 +40,7 @@ python3 g040ns_unified_tool.py inspect \
   images/tclinux_stock.bin
 ```
 (hãy nhớ mang file tclinux_stock.bin bỏ vào trong /gw040_work/images)
+
 sau khi nhập xong bạn sẽ có các giá trị như sau
 ```
 file_size
