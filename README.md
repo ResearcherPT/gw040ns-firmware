@@ -14,6 +14,7 @@
 ```
 lệnh này sẽ tạo trong /tmp một file tên tclinux_stock.bin, bạn sử dụng các app như winscp/filezilla để tải file này về
 # #2: chuẩn bị
+tải tool tại [đây](https://github.com/ResearcherPT/gw040ns-firmware/blob/main/g040ns_unified_tool.py)  
 hãy tạo thư mục với cấu trúc như sau
 ```
 gw040_work/
