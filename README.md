@@ -1,4 +1,6 @@
 # gw040ns-firnware
+<img width="240" height="160.75" align="right" alt="image" src="https://github.com/user-attachments/assets/81ab26a4-d2ed-4750-8d59-ccc36e8503e2" />
+
 ### bạn sẽ được học cách mod firmware, một cách miễn phí
 
 > [!CAUTION]
