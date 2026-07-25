@@ -30,11 +30,12 @@ gw040_work/
 ubuntu, debian (glibc system): ```sudo apt install -y python3 device-tree-compiler squashfs-tools sshpass```
 
 arch-based: ```sudo pacman -S --needed python dtc squashfs-tools sshpass```
+> đơn cử như cachyos
 
 alpine, ... (musl system): ```sudo apk add python dtc squashfs-tools sshpass```
 
 (Note: theo tôi, thằng BussyBakks, thì squashfs-tools của nhà alpine không hỗ trợ LZMA nên sài luôn `squashfs-tools-ng` luôn nhé, còn ổn không thì đố ai biết được)
-# #3: kiểm tra tinh toàn vẹn
+# #3: kiểm tra tính toàn vẹn
 tải tool ngay tại đây
 sau đó chạy lệnh sau
 ```bash
