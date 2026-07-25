@@ -58,7 +58,7 @@ kernel_size_hdr
 rootfs_size_hdr
 sha1/stored_sha1 của fdt@1, kernel@1, filesystem@1
 ```
-bạn có thể sử dụng AI để kiểm tra các giá trị và phải tuân thủ theo quy tắc sau:
+bạn có thể kiểm tra các giá trị và phải tuân thủ theo quy tắc sau:
 ```
 hdr_crc == computed_crc
 sha1 == stored_sha1
