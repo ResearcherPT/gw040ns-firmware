@@ -36,7 +36,6 @@ alpine, ... (musl system): ```sudo apk add python dtc squashfs-tools sshpass```
 
 (Note: theo tôi, thằng BussyBakks, thì squashfs-tools của nhà alpine không hỗ trợ LZMA nên sài luôn `squashfs-tools-ng` luôn nhé, còn ổn không thì đố ai biết được)
 # #3: kiểm tra tính toàn vẹn
-tải tool ngay tại đây
 sau đó chạy lệnh sau
 ```bash
 python3 g040ns_unified_tool.py inspect \
