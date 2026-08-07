@@ -17,13 +17,15 @@
 lệnh này sẽ tạo trong /tmp một file tên tclinux_stock.bin, bạn sử dụng các app như winscp/filezilla để tải file này về
 # #2: chuẩn bị
 tải tool tại [đây](https://github.com/ResearcherPT/gw040ns-firmware/blob/main/g040ns_unified_tool.py)  
-hãy tạo thư mục với cấu trúc như sau
+hãy tạo khu vực mod firmware với cấu trúc như sau
 ```
-gw040_work/
-├── images/
-│   └── tclinux_stock.bin
-├── rootfs_modded/
-└── out/
+040ns-firmware/
+├── g040ns_unified_tool.py
+└── gw040_work/
+    ├── images/
+    │   └── tclinux_stock.bin
+    ├── rootfs_modded/
+    └── out/
 ```
 (sudo ở đây nếu đã có root shell thì không cân add vào, không thì thêm vào để chạy = root)
 
@@ -34,7 +36,10 @@ arch-based: ```sudo pacman -S --needed python dtc squashfs-tools sshpass```
 
 alpine, ... (musl system): ```sudo apk add python dtc squashfs-tools sshpass```
 
-(Note: theo tôi, thằng BussyBakks, thì squashfs-tools của nhà alpine không hỗ trợ LZMA nên sài luôn `squashfs-tools-ng` luôn nhé, còn ổn không thì đố ai biết được)
+> [!NOTE]
+> BussyBakks: thì squashfs-tools của nhà alpine không hỗ trợ LZMA nên sài luôn `squashfs-tools-ng` luôn nhé, còn ổn không thì đố ai biết được  
+> AppleSang: nếu bạn xài windows có thể bật WSL và cài ubuntu để đủ điều kiện mod firmware
+
 # #3: kiểm tra tính toàn vẹn
 sau đó chạy lệnh sau
 ```bash
@@ -108,7 +113,6 @@ python3 g040ns_unified_tool.py flash \
 thì bước này nếu bạn có xài [myshell](https://github.com/ResearcherPT/vnptmodemresearch/tree/master/Integrations/myshell) thì hãy restart dropbear để bắt đầu
 và việc của bạn là chờ và chờ
 
-#TODO: release thêm tool để mod firmware
 
 # Cảm ơn bạn đã đọc 💓
 ### AppleSang 🍎
