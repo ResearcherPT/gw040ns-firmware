@@ -110,6 +110,12 @@ python3 g040ns_unified_tool.py flash \
   --user admin \
   --password 'VnT3ch@dm1n'
 ```
+
+nếu terminal của bạn chỉ nhận lệnh dạng ngang thì đây nhé  
+```bash
+python3 g040ns_unified_tool.py flash --project-dir .\gw040_work --image out\tclinux_modded.bin --host 192.168.1.1 --user admin --password "VnT3ch@dm1n"
+```
+
 thì bước này nếu bạn có xài [myshell](https://github.com/ResearcherPT/vnptmodemresearch/tree/master/Integrations/myshell) thì hãy restart dropbear để bắt đầu
 và việc của bạn là chờ và chờ
 
